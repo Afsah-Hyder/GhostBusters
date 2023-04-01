@@ -1,0 +1,11 @@
+# GhostBusters
+A replication of the GhostBusters game using SDL
+
+- Open this folder in VSCode
+- Open VSCode terminal and put this command to compile everything:
+
+	g++ *.cpp -IC:\mingw_dev_lib\include\SDL2 -LC:\mingw_dev_lib\lib -w -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
+
+- Run the game by this command:
+
+	.\a.exe
